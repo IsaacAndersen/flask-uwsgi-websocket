@@ -54,7 +54,7 @@ This should ensure pip can install uWSGI::
 If you plan to use the asyncio plugin, you'll need to ensure that it's enabled
 when uWSGI is compiled. You can use ``UWSGI_PROFILE`` to do this. With Homebrew Python 3.5 installed::
 
-    $ LDFLAGS="-L/usr/local/lib" CFLAGS="-I/usr/local/include/python3.5m" UWSGI_PROFLILE="asyncio" pip3 install uwsgi --no-use-wheel
+    $ LDFLAGS="-L/usr/local/lib" CFLAGS="-I/usr/local/include/python3.5m" UWSGI_PROFILE="asyncio" pip3 install uwsgi --no-use-wheel
 
 
 uWSGI on Linux
